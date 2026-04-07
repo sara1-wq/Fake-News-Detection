@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+
+# Model / checkpoints / large files
+python/results/
+python/fake-news-bert-base-uncased/
+*.safetensors
+*.pt
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
